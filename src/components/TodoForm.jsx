@@ -7,10 +7,12 @@ const TodoForm = () => {
         <form>
             <input type='text' placeholder='Digiti o título'></input>
             <select>
-                <option></option>
-                <option></option>
-                <option></option>
+                <option value="">Selecione uma categoria</option>
+                <option value="Trabalho">Trabalho</option>
+                <option value="Pessoal">Pessoal</option>
+                <option value="Estudos">Estudos</option>
             </select>
+            <button type="submit">Criar Tarefa</button>
         </form>
     </div>
   )
